@@ -7,7 +7,6 @@ import string, random, requests
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 app = Flask(__name__)
 
-#app.config.from_pyfile('config.py')
 account = 'storagesamplescreateeys'   # Azure account name
 key = 'S00GYHACh0JlvLK5/8iKU5mECGbRPnx15jxuJOAWrx230XAYfKOh6T0DmYmdoX1cz3GBRc8uzqJt+AStZPq0pw=='     # Azure Storage account access key  
 container = 'storagesamples-rg' # Container name
